@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30991A3026E2955700D11289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A2F26E2955700D11289 /* AppDelegate.swift */; };
+		30991A3226E2955700D11289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A3126E2955700D11289 /* SceneDelegate.swift */; };
+		30991A3426E2955700D11289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A3326E2955700D11289 /* ViewController.swift */; };
+		30991A3726E2955700D11289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3526E2955700D11289 /* Main.storyboard */; };
+		30991A3926E2956000D11289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3826E2956000D11289 /* Assets.xcassets */; };
+		30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3A26E2956000D11289 /* LaunchScreen.storyboard */; };
+		30991A4726E2956100D11289 /* BMI_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A4626E2956100D11289 /* BMI_FinderTests.swift */; };
+		30991A5226E2956100D11289 /* BMI_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A5126E2956100D11289 /* BMI_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30991A4326E2956100D11289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30991A2426E2955700D11289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30991A2B26E2955700D11289;
+			remoteInfo = "BMI Finder";
+		};
+		30991A4E26E2956100D11289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30991A2426E2955700D11289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30991A2B26E2955700D11289;
+			remoteInfo = "BMI Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30991A2C26E2955700D11289 /* BMI Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30991A2F26E2955700D11289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30991A3126E2955700D11289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30991A3326E2955700D11289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30991A3626E2955700D11289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30991A3826E2956000D11289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30991A3B26E2956000D11289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30991A3D26E2956000D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30991A4226E2956100D11289 /* BMI FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30991A4626E2956100D11289 /* BMI_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_FinderTests.swift; sourceTree = "<group>"; };
+		30991A4826E2956100D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30991A5126E2956100D11289 /* BMI_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_FinderUITests.swift; sourceTree = "<group>"; };
+		30991A5326E2956100D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30991A2926E2955700D11289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A3F26E2956100D11289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A4A26E2956100D11289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30991A2326E2955700D11289 = {
+			isa = PBXGroup;
+			children = (
+				30991A2E26E2955700D11289 /* BMI Finder */,
+				30991A4526E2956100D11289 /* BMI FinderTests */,
+				30991A5026E2956100D11289 /* BMI FinderUITests */,
+				30991A2D26E2955700D11289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30991A2D26E2955700D11289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30991A2C26E2955700D11289 /* BMI Finder.app */,
+				30991A4226E2956100D11289 /* BMI FinderTests.xctest */,
+				30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30991A2E26E2955700D11289 /* BMI Finder */ = {
+			isa = PBXGroup;
+			children = (
+				30991A2F26E2955700D11289 /* AppDelegate.swift */,
+				30991A3126E2955700D11289 /* SceneDelegate.swift */,
+				30991A3326E2955700D11289 /* ViewController.swift */,
+				30991A3526E2955700D11289 /* Main.storyboard */,
+				30991A3826E2956000D11289 /* Assets.xcassets */,
+				30991A3A26E2956000D11289 /* LaunchScreen.storyboard */,
+				30991A3D26E2956000D11289 /* Info.plist */,
+			);
+			path = "BMI Finder";
+			sourceTree = "<group>";
+		};
+		30991A4526E2956100D11289 /* BMI FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				30991A4626E2956100D11289 /* BMI_FinderTests.swift */,
+				30991A4826E2956100D11289 /* Info.plist */,
+			);
+			path = "BMI FinderTests";
+			sourceTree = "<group>";
+		};
+		30991A5026E2956100D11289 /* BMI FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30991A5126E2956100D11289 /* BMI_FinderUITests.swift */,
+				30991A5326E2956100D11289 /* Info.plist */,
+			);
+			path = "BMI FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30991A2B26E2955700D11289 /* BMI Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30991A5626E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI Finder" */;
+			buildPhases = (
+				30991A2826E2955700D11289 /* Sources */,
+				30991A2926E2955700D11289 /* Frameworks */,
+				30991A2A26E2955700D11289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMI Finder";
+			productName = "BMI Finder";
+			productReference = 30991A2C26E2955700D11289 /* BMI Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30991A4126E2956100D11289 /* BMI FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30991A5926E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderTests" */;
+			buildPhases = (
+				30991A3E26E2956100D11289 /* Sources */,
+				30991A3F26E2956100D11289 /* Frameworks */,
+				30991A4026E2956100D11289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30991A4426E2956100D11289 /* PBXTargetDependency */,
+			);
+			name = "BMI FinderTests";
+			productName = "BMI FinderTests";
+			productReference = 30991A4226E2956100D11289 /* BMI FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30991A4C26E2956100D11289 /* BMI FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30991A5C26E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderUITests" */;
+			buildPhases = (
+				30991A4926E2956100D11289 /* Sources */,
+				30991A4A26E2956100D11289 /* Frameworks */,
+				30991A4B26E2956100D11289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30991A4F26E2956100D11289 /* PBXTargetDependency */,
+			);
+			name = "BMI FinderUITests";
+			productName = "BMI FinderUITests";
+			productReference = 30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30991A2426E2955700D11289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					30991A2B26E2955700D11289 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					30991A4126E2956100D11289 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30991A2B26E2955700D11289;
+					};
+					30991A4C26E2956100D11289 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 30991A2B26E2955700D11289;
+					};
+				};
+			};
+			buildConfigurationList = 30991A2726E2955700D11289 /* Build configuration list for PBXProject "BMI Finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30991A2326E2955700D11289;
+			productRefGroup = 30991A2D26E2955700D11289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30991A2B26E2955700D11289 /* BMI Finder */,
+				30991A4126E2956100D11289 /* BMI FinderTests */,
+				30991A4C26E2956100D11289 /* BMI FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30991A2A26E2955700D11289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */,
+				30991A3926E2956000D11289 /* Assets.xcassets in Resources */,
+				30991A3726E2955700D11289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A4026E2956100D11289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A4B26E2956100D11289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30991A2826E2955700D11289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30991A3426E2955700D11289 /* ViewController.swift in Sources */,
+				30991A3026E2955700D11289 /* AppDelegate.swift in Sources */,
+				30991A3226E2955700D11289 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A3E26E2956100D11289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30991A4726E2956100D11289 /* BMI_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30991A4926E2956100D11289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30991A5226E2956100D11289 /* BMI_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30991A4426E2956100D11289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30991A2B26E2955700D11289 /* BMI Finder */;
+			targetProxy = 30991A4326E2956100D11289 /* PBXContainerItemProxy */;
+		};
+		30991A4F26E2956100D11289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30991A2B26E2955700D11289 /* BMI Finder */;
+			targetProxy = 30991A4E26E2956100D11289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30991A3526E2955700D11289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30991A3626E2955700D11289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30991A3A26E2956000D11289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30991A3B26E2956000D11289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30991A5426E2956100D11289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30991A5526E2956100D11289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30991A5726E2956100D11289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30991A5826E2956100D11289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30991A5A26E2956100D11289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI FinderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Finder.app/BMI Finder";
+			};
+			name = Debug;
+		};
+		30991A5B26E2956100D11289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI FinderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Finder.app/BMI Finder";
+			};
+			name = Release;
+		};
+		30991A5D26E2956100D11289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BMI Finder";
+			};
+			name = Debug;
+		};
+		30991A5E26E2956100D11289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BMI FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BMI Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30991A2726E2955700D11289 /* Build configuration list for PBXProject "BMI Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30991A5426E2956100D11289 /* Debug */,
+				30991A5526E2956100D11289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30991A5626E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30991A5726E2956100D11289 /* Debug */,
+				30991A5826E2956100D11289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30991A5926E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30991A5A26E2956100D11289 /* Debug */,
+				30991A5B26E2956100D11289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30991A5C26E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30991A5D26E2956100D11289 /* Debug */,
+				30991A5E26E2956100D11289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30991A2426E2955700D11289 /* Project object */;
+}
