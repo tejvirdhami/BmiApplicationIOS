@@ -15,7 +15,6 @@
 		30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3A26E2956000D11289 /* LaunchScreen.storyboard */; };
 		30991A4726E2956100D11289 /* BMI_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A4626E2956100D11289 /* BMI_FinderTests.swift */; };
 		30991A5226E2956100D11289 /* BMI_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A5126E2956100D11289 /* BMI_FinderUITests.swift */; };
-		30991A6026E2981A00D11289 /* ResultStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A5F26E2981A00D11289 /* ResultStoryboard.storyboard */; };
 		30C2FB1826EADFF8006D7E9A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2FB1726EADFF8006D7E9A /* Toast.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30991A5126E2956100D11289 /* BMI_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_FinderUITests.swift; sourceTree = "<group>"; };
 		30991A5326E2956100D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30991A5F26E2981A00D11289 /* ResultStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultStoryboard.storyboard; sourceTree = "<group>"; };
 		30C2FB1726EADFF8006D7E9A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ../../../../../Downloads/Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 				30991A3826E2956000D11289 /* Assets.xcassets */,
 				30991A3A26E2956000D11289 /* LaunchScreen.storyboard */,
 				30991A3D26E2956000D11289 /* Info.plist */,
-				30991A5F26E2981A00D11289 /* ResultStoryboard.storyboard */,
 			);
 			path = "BMI Finder";
 			sourceTree = "<group>";
@@ -239,7 +236,6 @@
 			files = (
 				30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */,
 				30991A3926E2956000D11289 /* Assets.xcassets in Resources */,
-				30991A6026E2981A00D11289 /* ResultStoryboard.storyboard in Resources */,
 				30991A3726E2955700D11289 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +438,7 @@
 		30991A5726E2956100D11289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57WWAR6P98;
@@ -461,7 +457,7 @@
 		30991A5826E2956100D11289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57WWAR6P98;

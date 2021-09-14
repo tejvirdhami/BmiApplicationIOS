@@ -15,13 +15,27 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var txtHeight: UITextField!
     @IBOutlet var txtBMI: UITextField!
     
+    @IBOutlet var lblResult: UILabel!
     @IBAction func btnCalculate(_ sender: Any) {
+        
+        if !txtWeight.hasText || !txtHeight.hasText {
+            Toast.ok(view: self, title: "Information", message: "Please enter your height and weight!", handler: nil)
+            return;
+        }
         
         let stringWeight = txtWeight.text!
         let weight = Float(stringWeight)
         
         let stringHeight = txtHeight.text!
         let height = Float(stringHeight)
+        
+        if Int(height!) > 400 || Int(weight!) > 200 {
+            Toast.ok(view: self, title: "Information", message: "Please enter valid height and weight!", handler: nil)
+            return;
+        }
+        
+        
+
         
         var bmi: Float = 0
         
@@ -30,8 +44,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         bmi = Float(weight! / pow(height! , 2)) * 100 * 100
         
         bmi = round(bmi * 100) / 100
-        
-        let bmiString = String(bmi)
         
         switch bmi{
         case 0..<18.5:
@@ -45,25 +57,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
         default:
         classi = "None"
         }
-        
-        Toast.ok(view: self, title: "BMI", message: "\(bmiString)\n Classification: \(classi)", handler: nil)
+        lblResult.isHidden = false
+        lblResult.text = "Classification: \(classi)"
         
     }
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        txtHeight.delegate = self
-        txtWeight.delegate = self
-    }
-    
     func textFieldShouldReturn( _ textField: UITextField) ->Bool {
         txtHeight.resignFirstResponder()
         txtWeight.resignFirstResponder()
         return true
     }
+    
+    override func viewDidLoad() {
+         super.viewDidLoad()
+         // Do any additional setup after loading the view.
+         txtHeight.delegate = self
+         txtWeight.delegate = self
+        lblResult.isHidden = true
+     }
 
 
 }
