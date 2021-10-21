@@ -13,27 +13,8 @@
 		30991A3726E2955700D11289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3526E2955700D11289 /* Main.storyboard */; };
 		30991A3926E2956000D11289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3826E2956000D11289 /* Assets.xcassets */; };
 		30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30991A3A26E2956000D11289 /* LaunchScreen.storyboard */; };
-		30991A4726E2956100D11289 /* BMI_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A4626E2956100D11289 /* BMI_FinderTests.swift */; };
-		30991A5226E2956100D11289 /* BMI_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30991A5126E2956100D11289 /* BMI_FinderUITests.swift */; };
 		30C2FB1826EADFF8006D7E9A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2FB1726EADFF8006D7E9A /* Toast.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		30991A4326E2956100D11289 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30991A2426E2955700D11289 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30991A2B26E2955700D11289;
-			remoteInfo = "BMI Finder";
-		};
-		30991A4E26E2956100D11289 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30991A2426E2955700D11289 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30991A2B26E2955700D11289;
-			remoteInfo = "BMI Finder";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		30991A2C26E2955700D11289 /* BMI Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,10 +25,8 @@
 		30991A3826E2956000D11289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30991A3B26E2956000D11289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30991A3D26E2956000D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30991A4226E2956100D11289 /* BMI FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30991A4626E2956100D11289 /* BMI_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_FinderTests.swift; sourceTree = "<group>"; };
 		30991A4826E2956100D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30991A5126E2956100D11289 /* BMI_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_FinderUITests.swift; sourceTree = "<group>"; };
 		30991A5326E2956100D11289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C2FB1726EADFF8006D7E9A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ../../../../../Downloads/Toast.swift; sourceTree = "<group>"; };
@@ -55,20 +34,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		30991A2926E2955700D11289 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30991A3F26E2956100D11289 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30991A4A26E2956100D11289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				30991A2C26E2955700D11289 /* BMI Finder.app */,
-				30991A4226E2956100D11289 /* BMI FinderTests.xctest */,
-				30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,42 +114,6 @@
 			productReference = 30991A2C26E2955700D11289 /* BMI Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30991A4126E2956100D11289 /* BMI FinderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30991A5926E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderTests" */;
-			buildPhases = (
-				30991A3E26E2956100D11289 /* Sources */,
-				30991A3F26E2956100D11289 /* Frameworks */,
-				30991A4026E2956100D11289 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30991A4426E2956100D11289 /* PBXTargetDependency */,
-			);
-			name = "BMI FinderTests";
-			productName = "BMI FinderTests";
-			productReference = 30991A4226E2956100D11289 /* BMI FinderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		30991A4C26E2956100D11289 /* BMI FinderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30991A5C26E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderUITests" */;
-			buildPhases = (
-				30991A4926E2956100D11289 /* Sources */,
-				30991A4A26E2956100D11289 /* Frameworks */,
-				30991A4B26E2956100D11289 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30991A4F26E2956100D11289 /* PBXTargetDependency */,
-			);
-			name = "BMI FinderUITests";
-			productName = "BMI FinderUITests";
-			productReference = 30991A4D26E2956100D11289 /* BMI FinderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +125,6 @@
 				TargetAttributes = {
 					30991A2B26E2955700D11289 = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					30991A4126E2956100D11289 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 30991A2B26E2955700D11289;
-					};
-					30991A4C26E2956100D11289 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 30991A2B26E2955700D11289;
 					};
 				};
 			};
@@ -223,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				30991A2B26E2955700D11289 /* BMI Finder */,
-				30991A4126E2956100D11289 /* BMI FinderTests */,
-				30991A4C26E2956100D11289 /* BMI FinderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +154,6 @@
 				30991A3C26E2956000D11289 /* LaunchScreen.storyboard in Resources */,
 				30991A3926E2956000D11289 /* Assets.xcassets in Resources */,
 				30991A3726E2955700D11289 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30991A4026E2956100D11289 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30991A4B26E2956100D11289 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,36 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30991A3E26E2956100D11289 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30991A4726E2956100D11289 /* BMI_FinderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30991A4926E2956100D11289 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30991A5226E2956100D11289 /* BMI_FinderUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		30991A4426E2956100D11289 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30991A2B26E2955700D11289 /* BMI Finder */;
-			targetProxy = 30991A4326E2956100D11289 /* PBXContainerItemProxy */;
-		};
-		30991A4F26E2956100D11289 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30991A2B26E2955700D11289 /* BMI Finder */;
-			targetProxy = 30991A4E26E2956100D11289 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		30991A3526E2955700D11289 /* Main.storyboard */ = {
@@ -443,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57WWAR6P98;
 				INFOPLIST_FILE = "BMI Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57WWAR6P98;
 				INFOPLIST_FILE = "BMI Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,86 +346,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		30991A5A26E2956100D11289 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BMI FinderTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Finder.app/BMI Finder";
-			};
-			name = Debug;
-		};
-		30991A5B26E2956100D11289 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BMI FinderTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Finder.app/BMI Finder";
-			};
-			name = Release;
-		};
-		30991A5D26E2956100D11289 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BMI FinderUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "BMI Finder";
-			};
-			name = Debug;
-		};
-		30991A5E26E2956100D11289 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "BMI FinderUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tejvir.BMI-FinderUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "BMI Finder";
 			};
 			name = Release;
 		};
@@ -570,24 +366,6 @@
 			buildConfigurations = (
 				30991A5726E2956100D11289 /* Debug */,
 				30991A5826E2956100D11289 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30991A5926E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30991A5A26E2956100D11289 /* Debug */,
-				30991A5B26E2956100D11289 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30991A5C26E2956100D11289 /* Build configuration list for PBXNativeTarget "BMI FinderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30991A5D26E2956100D11289 /* Debug */,
-				30991A5E26E2956100D11289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

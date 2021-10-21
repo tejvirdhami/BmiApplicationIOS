@@ -48,12 +48,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         switch bmi{
         case 0..<18.5:
         classi = "Underweight"
+        lblResult.backgroundColor = UIColor.blue
         case 18.5..<24.9:
         classi = "Normal weight"
+        lblResult.backgroundColor = UIColor.green
         case 25.0..<29.9:
         classi = "Overweight"
+        lblResult.backgroundColor = UIColor.yellow
         case 30..<100.0:
         classi = "Obesity"
+        lblResult.backgroundColor = UIColor.orange
         default:
         classi = "None"
         }
